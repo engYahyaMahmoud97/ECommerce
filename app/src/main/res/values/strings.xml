@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ECommerce</string>
+    <string name="enterName">What is your firstname?</string>
+    <string name="start_ordering">Start Ordering</string>
+    <string name="hint_name">Tony</string>
+    <string name="lets_continue">Let’s Continue</string>
+    <string name="hint_search">Search for fruit salad combos</string>
+    <string name="recommended_combo">Recommended Combo</string>
+    <string name="go_back">Go back</string>
+    <string name="checkout">Checkout</string>
+    <string name="total">Total</string>
+    <string name="my_basket">My Basket</string>
+    <string name="empty_basket">The basket is empty.</string>
+    <string name="delivery_address">Delivery address</string>
+    <string name="hint_adress">10th avenue, Lekki, Lagos State</string>
+    <string name="delivery_phone">Number we can call</string>
+    <string name="hint_phone">09090605708</string>
+    <string name="pay_on_delivery">Pay on delivery</string>
+    <string name="pay_with_card">Pay with card</string>
+    <string name="card_holders_name">Card Holders Name</string>
+    <string name="hint_card_name">Adolphus Chris</string>
+    <string name="card_number">Card Number</string>
+    <string name="hint_card_number">1234 5678 9012 1314</string>
+    <string name="date">Date</string>
+    <string name="card_ccv">CCV</string>
+    <string name="card_date">Date</string>
+    <string name="hint_card_date">10/30</string>
+    <string name="hint_card_ccv">123</string>
+    <string name="complete_order">Complete Order</string>
+    <string name="congratulations">Congratulations!!!</string>
+    <string name="message_success">Your order have been taken and is being attended to</string>
+    <string name="track_order">Track order</string>
+    <string name="continue_shopping">Continue shopping</string>
+    <string name="no_image">error download</string>
+</resources>

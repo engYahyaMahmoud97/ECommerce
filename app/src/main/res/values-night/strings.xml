@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="enterName">What is your firstname?</string>
+    <string name="hint_name">Tony</string>
+    <string name="lets_continue">Let’s Continue</string>
+</resources>
