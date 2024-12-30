@@ -87,7 +87,8 @@ public class FragmentB extends Fragment implements MyRecyclerViewAdapter.ItemCli
     }
     @Override
     public void onItemClick(View view, int position) {
-        startActivity(new Intent(getContext(),AddToBasket.class));
-    }
+        Intent intent = new Intent(getContext(),AddToBasket.class);
+        intent.putExtra("item",productArrayList.get(position));
+        startActivity(intent);        }
 
 }

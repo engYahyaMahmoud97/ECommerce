@@ -94,17 +94,12 @@ public class MainActivity extends AppCompatActivity implements MyRecyclerViewAda
 
         try {
             String name = getIntent().getStringExtra("name");
-            assert name != null;
-            if (!name.isEmpty())
+            if (name != null)
                 helloName.setText("Hello "+name);
         }catch (Exception e) {
             throw new RuntimeException(e);
         }
 
-        @SuppressLint("UseCompatLoadingForDrawables") Drawable image = getResources().getDrawable(R.drawable.image1);
-        @SuppressLint("UseCompatLoadingForDrawables") Drawable image2 = getResources().getDrawable(R.drawable.image2);
-        @SuppressLint("UseCompatLoadingForDrawables") Drawable image3 = getResources().getDrawable(R.drawable.a);
-        @SuppressLint("UseCompatLoadingForDrawables") Drawable image4 = getResources().getDrawable(R.drawable.b);
         listFood.add(new ObjectItem("Berry mango combo","210","https://i.postimg.cc/hj3yq3Qp/temp-Imagem-Yj-RTk.avif"));
         listFood.add(new ObjectItem("Honey lime combo","320","https://i.postimg.cc/hj3yq3Qp/temp-Imagem-Yj-RTk.avif"));
         listFood.add(new ObjectItem("Quinoa fruit salad","120","https://i.postimg.cc/hj3yq3Qp/temp-Imagem-Yj-RTk.avif"));
